@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .col-6:hover{
+      transform: scale(1.1);
+    }
+    nav li:hover{
+      transform: scale(1.2);
+    }
+    .image{
+      overflow: hidden;
+      position: relative;
+      height: 400px;
+    }
+
+  </style>
+  <head>
+    <title>Proyek Tim A34</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+      />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="landing is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="#">A34</a> Teammates</h1>
+        <nav id="nav">
+          <ul>
+            <li><a href="#" onclick="homeFocus()" >Home</a></li>
+            <li><a href="#" onclick="purposeFocus()">Purpose</a></li>
+            <li><a href="#" onclick="memberFocus()">Members</a></li>
+            <li><a href="#" onclick="contactFocus()">Contact Us</a></li>
+            <li><a href="#" class="button">Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Banner -->
+      <section id="banner">
+        <h2></h2>
+        <p></br></br></br></br></br></p>
+        <!-- <ul class="actions special">
+          <li><a href="#" class="button primary">Sign Up</a></li>
+          <li><a href="#" class="button">Learn More</a></li>
+        </ul> -->
+      </section>
+
+      <!-- Main -->
+      <section id="main" class="container">
+        <section class="box special">
+          <header class="major">
+            <h2>
+              Introducing the Team Members
+            </h2>
+            <p>
+              This website was created in completing the Online Academy Digital Talent Scholarship 2020 training organized by the
+              Ministry of Communication and Information of the Republic of Indonesia in collaboration with Progate and Discord.
+            </p>
+          </header>
+          <!-- <span class="image featured"><img src="images/pic01.jpg" alt=""/></span> -->
+        </section>
+
+        <div id="member" class="row">
+          <div class="col-6 col-12-narrower">
+            <section class="box special">
+              <span class="image featured"><img src="images/ainur_inas_annisa.jpg" alt=""
+                  /></span>
+              <h3>Ainur Inas Annisa</h3>
+              <p>
+                I am a junior programmer interested in web developing, both front-end and back-end, python, and artificial intelligence.
+                Hopefully with this training, my interest in programming will grow up. Happy coding guys. 
+              </br> – 0447977150-62
+              </p>
+            </section>
+          </div>
+          <div class="col-6 col-12-narrower">
+            <section class="box special">
+              <span class="image featured"><img src="images/mrs.jpg" alt=""
+                  /></span>
+              <h3>Amanda Noviatri Puspita Putri</h3>
+              <p>
+                “A successful man is one who can lay a firm foundation with the bricks others have thrown at him.”
+                </br>– David Brinkley
+              </br></br></br>
+              </p>
+            </section>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 col-12-narrower">
+            <section class="box special">
+              <span class="image featured"><img src="images/mr.jpg" alt="" /></span>
+              <h3>Ilham</h3>
+              <p>
+                “I’m a success today because I had a friend who believed in me and I didn’t have the heart to let him down.”
+                </br>– Abraham Lincoln
+                </br>
+              </p>
+            </section>
+          </div>
+          <div class="col-6 col-12-narrower">
+            <section class="box special">
+              <span class="image featured"><img src="images/mr.jpg" alt="" /></span>
+              <h3>Ahmad Fajri</h3>
+              <p>
+                “Challenges are what make life interesting and overcoming them is what makes life meaningful.”</br>
+                – Joshua J. Marine
+                </br></br>
+              </p>
+            </section>
+          </div>
+        </div>
+
+
+
+      </section>
+
+      <!-- CTA -->
+      <section id="cta">
+        <h2>Quote of the Day</h2>
+        <h4>
+          "Sometimes life doesn't give you what you want, not because you don't deserve it, but because you deserve so much more."
+        </h4>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-github"><span class="label">Github</span></a>
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a>
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a>
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Discord and Progate. All A34 Members.</li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript">
+      function contactFocus() {
+          document.getElementById('footer').scrollIntoView();
+      }
+      function homeFocus() {
+          document.getElementById('page-wrapper').scrollIntoView();
+        }
+      function purposeFocus() {
+          document.getElementById('main').scrollIntoView();
+        }
+      function memberFocus() {
+          document.getElementById('member').scrollIntoView();
+        }
+
+    </script>
+  </body>
+</html>
